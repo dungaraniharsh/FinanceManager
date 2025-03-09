@@ -1,74 +1,69 @@
 # Personal Finance Manager
 
-The **Personal Finance Manager** is a Java-based application that helps users track their income and expenses efficiently. It allows users to record financial transactions, categorize them, and monitor their overall budget. Transactions are saved in a text file to ensure data persistence.
-
-## Features
-
-- **Add and categorize income and expenses** (e.g., Salary, Food, Entertainment).
-- **Track total balance** and prevent overspending.
-- Simple **console-based interface** for easy usage.
-- Saves transaction history for **future reference**.
-- Platform-independent **Java application**.
+A Java-based application to manage personal finances, track transactions, and view financial history.
 
 ## Prerequisites
 
-To run this application, ensure you have the following installed:
+- **Java Development Kit (JDK 8 or above)**
+  - Check installation:  
+    ```bash
+    java -version
+    ```
+  - If not installed, download from:
+    - [Oracle JDK](https://www.oracle.com/java/technologies/downloads/)
+    - [OpenJDK](https://openjdk.org/)
 
-- **Java Development Kit (JDK) 8 or above**.
+## Installation & Usage
 
-To verify if Java is installed, run the following command:
+### Command Line
 
-```bash
-java -version
-
-Installation & Usage
-1. Clone the Repository
-Clone the project repository to your local machine:
+1. **Navigate to the Project Folder**  
+   Open Terminal/Command Prompt and go to the project directory:
+   ```bash
+   cd path/to/Personal-Finance-Manager-main
+Compile the Java Files
+Run:
 
 bash
 Copy
-Edit
-git clone https://github.com/your-username/Personal-Finance-Manager.git
-cd Personal-Finance-Manager
-2. Compile the Java Files
-Compile the Java files using the following command:
-
-bash
-Copy
-Edit
 javac *.java
-This will generate .class files in the project directory.
+This generates .class files.
 
-3. Run the Application
-To run the application, use:
+Run the Application
+Execute the main class:
 
 bash
 Copy
-Edit
 java FinanceManager
-This will start the program, allowing you to add, view, and manage transactions.
+IDE (Optional)
+Open the project in IntelliJ IDEA, Eclipse, or VS Code.
 
-Running in an IDE (Optional)
-You can open the project in your preferred Java IDE:
+Ensure FinanceManager.java contains the main() method.
 
-IntelliJ IDEA
-Eclipse
-VS Code
-Ensure that the main file (e.g., FinanceManager.java) contains a main() method.
-
-Click Run or execute the file to start the application.
+Click the IDE's Run button to execute.
 
 Managing Transactions
-Follow the on-screen prompts to add, view, or manage transactions. The transactions will be stored in transactions.txt for future reference.
+Follow on-screen prompts to:
 
-Example:
-Add an Income:
-Type: "Salary"
-Amount: "$3000"
-Add an Expense:
-Type: "Food"
-Amount: "$100"
-The application will store the transaction history in the transactions.txt file for easy access later.
+Add income/expenses
+
+View transaction history
+
+Analyze financial trends
+
+All transactions are auto-saved in transactions.txt.
 
 License
-This project is licensed under the MIT License.
+Update this section with your project's license (e.g., MIT, Apache).
+
+Copy
+
+---
+
+### Features to Highlight:
+- Clear CLI instructions for beginners
+- Compatibility with both Oracle JDK and OpenJDK
+- Persistent data storage via `transactions.txt`
+- IDE-friendly setup
+
+Let me know if you'd like to add more details (e.g., screenshots, contribution guidelines)! 🚀
