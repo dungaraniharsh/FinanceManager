@@ -36,12 +36,12 @@ Run:
 ```
 
 4. **Running in an IDE (Optional)**
-   - Open the project in IntelliJ IDEA, Eclipse, or VS Code.
-   - Ensure FinanceManager.java contains the main() method.
-   - Click the IDE's Run button to execute.
+ - Open the project in IntelliJ IDEA, Eclipse, or VS Code.
+ - Ensure FinanceManager.java contains the main() method.
+ - Click the IDE's Run button to execute.
 
 5. **Managing Transactions**
-  - Follow on-screen prompts to:
+ - Follow on-screen prompts to:
     -- Add income/expenses
     -- View transaction history
     -- Analyze financial trends
